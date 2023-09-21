@@ -25,6 +25,9 @@ nav {
 
 .main--container {
     padding: 57px 27px;
+    background-image: url(src/assets/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main--title {
@@ -41,4 +44,9 @@ nav {
 .main--list > li {
     line-height: 19px;
     padding-block: 10px;
+}
+
+.main--list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
